@@ -1,5 +1,5 @@
 ﻿
-systemutil.run("C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe")
+systemutil.run("C:\Program Files (x86)\Micro Focus\UFT One\samples\Flights Application\FlightsGUI.exe")
 
 'Login
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set "john" @@ hightlight id_;_1897481656_;_script infofile_;_ZIP::ssf2.xml_;_
