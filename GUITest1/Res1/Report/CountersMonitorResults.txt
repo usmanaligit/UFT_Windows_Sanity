@@ -1,0 +1,5 @@
+ProcessName , Mobile Device Vitals
+StartReplayTime ,	638349272881417061
+Limits			,-1		,-1		,-1 
+Time  ,  Cpu (in %) ,  Memory (in KB) ,  Thermal State 
+638349272881417061   ,  -1 ,  -1 ,  -1 
