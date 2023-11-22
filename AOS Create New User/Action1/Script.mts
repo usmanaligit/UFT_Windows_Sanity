@@ -1,13 +1,13 @@
 ﻿
 'launch
-systemutil.Run "chrome.exe", "http://advantageonlineshopping.com/#/"
+systemutil.Run "chrome.exe", "http://nimbusserver.aos.com:8000/#/"
 
-
+wait(3)
 'Create New User
-wait(8)
 Browser("Advantage Shopping").Sync
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Link("UserMenu").Click @@ script infofile_;_ZIP::ssf12.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Sync
+wait(2)
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("CREATE NEW ACCOUNT").Click @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping_2").Sync
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("usernameRegisterPage").Set DataTable("New Users", dtGlobalSheet) @@ script infofile_;_ZIP::ssf5.xml_;_
